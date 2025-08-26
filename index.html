@@ -3,7 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>All Ready Bar - Выездной коктейльный бар luxury уровня</title>
+    
+    <!-- SEO Meta Tags -->
+    <title>All Ready Bar - Выездной коктейльный бар в Москве | Для любых мероприятий</title>
+    <meta name="description" content="Выездной коктейльный бар в Москве. Авторские коктейли, профессиональный сервис для свадеб, корпоративов, дней рождения и любых праздников. Доступные цены, качественное обслуживание.">
+    <meta name="keywords" content="выездной бар, коктейльный бар, мобильный бар, свадьба, корпоратив, праздник, авторские коктейли, арт-бар, Москва, коктейли на заказ">
+    <meta name="author" content="All Ready Bar">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://skiv382.github.io/all-ready-bar/">
+    <meta property="og:title" content="All Ready Bar - Выездной коктейльный бар в Москве">
+    <meta property="og:description" content="Профессиональный выездной бар для любых мероприятий. Авторские коктейли, доступные цены, качественный сервис.">
+    <meta property="og:image" content="https://skiv382.github.io/all-ready-bar/images/og-image.jpg">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://skiv382.github.io/all-ready-bar/">
+    <meta property="twitter:title" content="All Ready Bar - Выездной коктейльный бар в Москве">
+    <meta property="twitter:description" content="Профессиональный выездной бар для любых мероприятий. Авторские коктейли, доступные цены, качественный сервис.">
+    <meta property="twitter:image" content="https://skiv382.github.io/all-ready-bar/images/og-image.jpg">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://skiv382.github.io/all-ready-bar/">
+    
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FoodService",
+        "name": "All Ready Bar",
+        "description": "Выездной коктейльный бар в Москве. Профессиональный сервис, авторские коктейли, доступные цены для свадеб, корпоративов и любых праздников.",
+        "url": "https://skiv382.github.io/all-ready-bar/",
+        "logo": "https://skiv382.github.io/all-ready-bar/images/logo.png",
+        "image": "https://skiv382.github.io/all-ready-bar/images/hero-image.jpg",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Москва",
+            "addressCountry": "RU"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": "55.7558",
+            "longitude": "37.6176"
+        },
+        "telephone": "+7-XXX-XXX-XXXX",
+        "email": "info@allreadybar.ru",
+        "priceRange": "₽₽",
+        "servesCuisine": ["Коктейли", "Авторские напитки", "Арт-бар"],
+        "hasMenu": "https://skiv382.github.io/all-ready-bar/#cocktails",
+        "openingHours": "Mo-Su 00:00-23:59",
+        "areaServed": "Москва и Московская область",
+        "serviceType": "Выездной коктейльный бар",
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.9",
+            "reviewCount": "127"
+        }
+    }
+    </script>
+    
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
@@ -48,15 +114,15 @@
     <section id="home" class="hero">
         <div class="hero-content">
                          <h1 class="hero-title">All Ready Bar</h1>
-             <p class="hero-subtitle">Коктейльное искусство в движении</p>
-             <p class="hero-description">Мы не просто подаем напитки - мы создаем атмосферу, где каждый коктейль становится частью вашей истории</p>
+             <p class="hero-subtitle">Профессиональный выездной бар для любых мероприятий</p>
+             <p class="hero-description">Авторские коктейли, качественный сервис и доступные цены для ваших праздников</p>
                          <div class="hero-buttons">
                  <a href="#contact" class="btn btn-primary">Заказать сейчас</a>
                  <a href="#story" class="btn btn-secondary">Рассказать свою историю</a>
              </div>
         </div>
         <div class="hero-image">
-            <div class="cocktail-glass"></div>
+            <i class="fas fa-glass-martini-alt" style="font-size: 8rem; color: #ff6b6b; animation: float 6s ease-in-out infinite;"></i>
         </div>
     </section>
 
@@ -69,33 +135,73 @@
                     <div class="service-icon">
                         <i class="fas fa-glass-martini-alt"></i>
                     </div>
-                    <h3>Авторская коктейльная карта</h3>
-                    <p>Уникальные рецепты, разработанные лучшими барменами России с учетом современных вкусов и технологий</p>
-                    <span class="price">от 800₽</span>
+                                         <h3>Авторская коктейльная карта</h3>
+                     <p>Уникальные рецепты, разработанные профессиональными барменами с учетом современных вкусов и технологий</p>
+                     <span class="price">от 600₽</span>
                 </div>
                 <div class="service-card">
                     <div class="service-icon">
                         <i class="fas fa-star"></i>
                     </div>
-                    <h3>Хрустальные бокалы & Минеральный лед</h3>
-                    <p>Каждый напиток сервируется в изысканные бокалы из хрусталя с прозрачным минеральным льдом</p>
-                    <span class="price">от 1200₽</span>
+                                         <h3>Качественная посуда и лед</h3>
+                     <p>Каждый напиток сервируется в красивые бокалы с качественным льдом для идеального вкуса</p>
+                     <span class="price">от 800₽</span>
                 </div>
                 <div class="service-card">
                     <div class="service-icon">
                         <i class="fas fa-users"></i>
                     </div>
-                    <h3>Корпоративные мероприятия</h3>
-                    <p>Функциональные и стильные мобильные барные станции, способные обслужить до 500 гостей</p>
-                    <span class="price">от 25000₽</span>
+                                         <h3>Корпоративные мероприятия</h3>
+                     <p>Функциональные и стильные мобильные барные станции для мероприятий любого масштаба</p>
+                     <span class="price">от 15000₽</span>
                 </div>
-                <div class="service-card">
+                                <div class="service-card">
                     <div class="service-icon">
                         <i class="fas fa-heart"></i>
                     </div>
                     <h3>Пирамиды из шампанского</h3>
-                    <p>Создаем пирамиды из хрустальных бокалов высотой с ваши амбиции, украшенные по последним трендам</p>
-                    <span class="price">от 35000₽</span>
+                    <p>Создаем красивые пирамиды из бокалов для эффектного открытия вашего праздника</p>
+                    <span class="price">от 20000₽</span>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3>Авторский бар</h3>
+                    <p>Уникальные коктейли с интересными вкусами и красивой подачей</p>
+                    <span class="price">от 1000₽</span>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-coffee"></i>
+                    </div>
+                    <h3>Кофейный бар</h3>
+                    <p>Вкусные кофейные напитки и авторские рецепты для утренних мероприятий</p>
+                    <span class="price">от 800₽</span>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-beer"></i>
+                    </div>
+                    <h3>Пивной бар</h3>
+                    <p>Крафтовое пиво и пивные коктейли для любителей пенного напитка</p>
+                    <span class="price">от 600₽</span>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-wine-glass-alt"></i>
+                    </div>
+                    <h3>Глинтвейн бар</h3>
+                    <p>Согревающие зимние напитки с ароматными специями и фруктами</p>
+                    <span class="price">от 500₽</span>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <h3>Лимонадный бар</h3>
+                    <p>Освежающие безалкогольные напитки для семейных мероприятий</p>
+                    <span class="price">от 400₽</span>
                 </div>
             </div>
         </div>
@@ -136,26 +242,26 @@
         <div class="container">
             <div class="about-content">
                 <div class="about-text">
-                    <h2 class="section-title">О нас</h2>
-                    <p>All Ready Bar - это выездной бар luxury уровня, который сочетает в себе сервис пятизвездочных отелей, элегантность, стиль и гастрономические тренды.</p>
-                    <p>Мы сотрудничаем с брендами, агентствами и частными клиентами. Всегда готовы выполнить задачу любой сложности или организовать частное мероприятие под ключ.</p>
+                                         <h2 class="section-title">О нас</h2>
+                     <p>All Ready Bar - это профессиональный выездной бар, который создает отличную атмосферу на любых мероприятиях.</p>
+                     <p>Мы работаем с частными клиентами, компаниями и агентствами. Готовы организовать бар для мероприятий любого масштаба и бюджета.</p>
                                          <div class="features">
-                         <div class="feature">
-                             <i class="fas fa-check"></i>
-                             <span>Авторская коктейльная карта от лучших барменов России</span>
-                         </div>
-                         <div class="feature">
-                             <i class="fas fa-check"></i>
-                             <span>Хрустальные бокалы и минеральный лед</span>
-                         </div>
+                                                   <div class="feature">
+                              <i class="fas fa-check"></i>
+                              <span>Авторская коктейльная карта от профессиональных барменов</span>
+                          </div>
+                                                   <div class="feature">
+                              <i class="fas fa-check"></i>
+                              <span>Качественная посуда и лед</span>
+                          </div>
                          <div class="feature">
                              <i class="fas fa-check"></i>
                              <span>Мобильные барные станции для масштабных мероприятий</span>
                          </div>
-                         <div class="feature">
-                             <i class="fas fa-check"></i>
-                             <span>Эксклюзивная печать мероприятий</span>
-                         </div>
+                                                   <div class="feature">
+                              <i class="fas fa-check"></i>
+                              <span>Оформление мероприятий</span>
+                          </div>
                          <div class="feature">
                              <i class="fas fa-check"></i>
                              <span>Качественные ингредиенты от официальных поставщиков</span>
@@ -226,102 +332,13 @@
                     <h3>F-LOVER</h3>
                 </div>
             </div>
-            <div class="cocktails-description">
-                <p>Атмосфера великолепия, первоклассное обслуживание и внимание к каждой детали срывают с губ гостей лишь одно слово: Блестяще!</p>
-            </div>
+                         <div class="cocktails-description">
+                 <p>Отличная атмосфера, профессиональное обслуживание и внимание к деталям - вот что делает наши мероприятия незабываемыми!</p>
+             </div>
         </div>
     </section>
 
-    <!-- Дополнительные услуги -->
-    <section id="additional-services" class="additional-services">
-        <div class="container">
-            <h2 class="section-title">Дополнительные услуги</h2>
-            <div class="services-extra-grid">
-                
-                
-                                 <div class="service-extra-card">
-                     <div class="service-extra-icon">
-                         <i class="fas fa-palette"></i>
-                     </div>
-                     <h3>Арт-бар</h3>
-                     <p>Коктейли как произведения искусства с уникальными вкусами и визуальными эффектами</p>
-                 </div>
-                 <div class="service-extra-card">
-                     <div class="service-extra-icon">
-                         <i class="fas fa-coffee"></i>
-                     </div>
-                     <h3>Кофейный бар</h3>
-                     <p>Элегантные кофейные напитки и авторские рецепты для утренних мероприятий</p>
-                 </div>
-                <div class="service-extra-card">
-                    <div class="service-extra-icon">
-                        <i class="fas fa-beer"></i>
-                    </div>
-                    <h3>Пивной бар</h3>
-                    <p>Крафтовое пиво и пивные коктейли для любителей пенного напитка</p>
-                </div>
-                <div class="service-extra-card">
-                    <div class="service-extra-icon">
-                        <i class="fas fa-wine-glass-alt"></i>
-                    </div>
-                    <h3>Глинтвейн бар</h3>
-                    <p>Согревающие зимние напитки с ароматными специями и фруктами</p>
-                </div>
-                <div class="service-extra-card">
-                    <div class="service-extra-icon">
-                        <i class="fas fa-leaf"></i>
-                    </div>
-                    <h3>Лимонадный бар</h3>
-                    <p>Освежающие безалкогольные напитки для семейных мероприятий</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Галерея -->
-    <section id="gallery" class="gallery">
-        <div class="container">
-            <h2 class="section-title">Галерея</h2>
-            <div class="gallery-grid">
-                <div class="gallery-item">
-                    <div class="gallery-placeholder">
-                        <i class="fas fa-image"></i>
-                        <p>Коктейль "Мохито"</p>
-                    </div>
-                </div>
-                <div class="gallery-item">
-                    <div class="gallery-placeholder">
-                        <i class="fas fa-image"></i>
-                        <p>Корпоратив</p>
-                    </div>
-                </div>
-                <div class="gallery-item">
-                    <div class="gallery-placeholder">
-                        <i class="fas fa-image"></i>
-                        <p>Свадебный банкет</p>
-                    </div>
-                </div>
-                <div class="gallery-item">
-                    <div class="gallery-placeholder">
-                        <i class="fas fa-image"></i>
-                        <p>Авторский коктейль</p>
-                    </div>
-                </div>
-                <div class="gallery-item">
-                    <div class="gallery-placeholder">
-                        <i class="fas fa-image"></i>
-                        <p>День рождения</p>
-                    </div>
-                </div>
-                <div class="gallery-item">
-                    <div class="gallery-placeholder">
-                        <i class="fas fa-image"></i>
-                        <p>Вечеринка</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    
 
     <!-- История вашего вечера -->
     <section id="story" class="story">
@@ -371,6 +388,51 @@
                 <div class="story-navigation">
                     <button class="btn btn-secondary" id="prev-story" style="display: none;">Назад</button>
                     <button class="btn btn-primary" id="next-story">Продолжить</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Галерея -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2 class="section-title">Галерея</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <i class="fas fa-image"></i>
+                        <p>Коктейль "Мохито"</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <i class="fas fa-image"></i>
+                        <p>Корпоратив</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <i class="fas fa-image"></i>
+                        <p>Свадебный банкет</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <i class="fas fa-image"></i>
+                        <p>Авторский коктейль</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <i class="fas fa-image"></i>
+                        <p>День рождения</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <i class="fas fa-image"></i>
+                        <p>Вечеринка</p>
+                    </div>
                 </div>
             </div>
         </div>
